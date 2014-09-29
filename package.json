@@ -1,0 +1,27 @@
+{
+    "name": "zebracss-utils-display",
+    "version": "0.0.1",
+    "description": "ZebraCSS display utils",
+    "main": "index.less",
+    "scripts": {
+        "setup": "npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZebraCSS/zebracss-utils-display.git"
+    },
+    "keywords": [
+        "css",
+        "less",
+        "components",
+        "css-components",
+        "zebracss",
+        "style"
+    ],
+    "author": "Julia Rechkunova",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ZebraCSS/zebracss-utils-display/issues"
+    },
+    "homepage": "https://github.com/ZebraCSS/zebracss-utils-display"
+}
