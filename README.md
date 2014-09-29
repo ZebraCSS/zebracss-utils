@@ -1,4 +1,4 @@
-zebracss-utils-display
+zebracss-utils
 ======================
 
-ZebraCSS Display Utils
+ZebraCSS Utils
