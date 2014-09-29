@@ -18,7 +18,13 @@
         "zebracss",
         "style"
     ],
-    "author": "Julia Rechkunova",
+    "author": {
+        "name": "Julia Rechkunova",
+        "email": "julia.rechkunova@gmail.com"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ZebraCSS/zebracss-utils/issues"
