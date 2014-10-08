@@ -1,61 +1,16 @@
+@import "../mixins/text-break";
+@import "../mixins/text-truncate";
+
 /**
  * Word breaking
- *
- * Break strings when their length exceeds the width of their container.
  */
-
 .u-textBreak {
-	word-wrap: break-word;
+	.mixin-utils-textBreak();
 }
 
 /**
- * Horizontal text alignment
+ * Truncate text
  */
-
-.u-textCenter {
-	text-align: center;
-}
-
-.u-textLeft {
-	text-align: left;
-}
-
-.u-textRight {
-	text-align: right;
-}
-
-/**
- * Inherit the ancestor's text color.
- */
-
-.u-textInheritColor {
-	color: inherit;
-}
-
-/**
- * Prevent whitespace wrapping
- */
-
-.u-textNoWrap {
-	white-space: nowrap;
-}
-
-/**
- * Text truncation
- *
- * Prevent text from wrapping onto multiple lines, and truncate with an
- * ellipsis.
- *
- * 1. Ensure that the node has a maximum width after which truncation can
- *    occur.
- * 2. Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor
- *    nodes.
- */
-
 .u-textTruncate {
-	max-width: 100%; /* 1 */
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	word-wrap: normal; /* 2 */
+	.mixin-utils-textTruncate();
 }
