@@ -26,6 +26,9 @@
     "directories": {
         "lib": "./lib"
     },
+	"dependencies": {
+		"zebracss-config": "git://github.com/ZebraCSS/zebracss-config.git#master"
+	},
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ZebraCSS/zebracss-utils/issues"
