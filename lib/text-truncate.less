@@ -9,10 +9,10 @@
  * 2. Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor
  *    nodes.
  */
-.mixin-utils-textTruncate () {
+.mixin-utils-textTruncate (@width: 100%) {
 	overflow: hidden;
 
-	max-width: 100%; /* 1 */
+	max-width: @width; /* 1 */
 
 	text-overflow: ellipsis;
 	white-space: nowrap;
